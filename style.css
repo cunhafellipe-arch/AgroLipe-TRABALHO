@@ -241,3 +241,49 @@ header h1 {
     color: #3f5f2a;
     font-size: 22px;
 }
+
+.sobre {
+    background-color: #f3f0df;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.sobre h2,
+.valores h2,
+.missao h2 {
+    font-size: 34px;
+    margin-bottom: 25px;
+    color: #3f5f2a;
+}
+
+.sobre p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* VALORES */
+
+.valores {
+    background-color: #e3dfc7;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+/* MISSÃO */
+
+.missao {
+    background-color: #f3f0df;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.missao p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 19px;
+    line-height: 1.6;
+}
