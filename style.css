@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f0df;
+    color: #303b24;
+}
+
+
+/* CABEÇALHO */
+
+header {
+    background-color: #3f5f2a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e6c65c;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    min-height: 450px;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+    ),
+    url("imagens/fazenda.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+.texto-inicio {
+    max-width: 700px;
+}
+
+.texto-inicio h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.texto-inicio p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+/* BOTÃO */
+
+.botao {
+    display: inline-block;
+    background-color: #d4a72c;
+    color: white;
+    text-decoration: none;
+
+    padding: 14px 30px;
+    border-radius: 6px;
+
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #b78c1f;
+}
+
+
+/* CATEGORIAS */
+
+.categorias {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.categorias h2,
+.destaques h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+/* CARDS */
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin: 15px 0 8px;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    line-height: 1.5;
+}
+
+
+/* PRODUTOS */
+
+.destaques {
+    background-color: #e3dfc7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.produto {
+    width: 250px;
+    background-color: white;
+
+    padding: 25px;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.produto h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.produto p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.produto strong {
+    color: #3f5f2a;
+    font-size: 22px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #26381b;
+    color: white;
+    text-align: center;
+
+    padding: 25px;
+    margin-top: 0;
+}
+
+footer p {
+    margin: 8px;
+}
