@@ -287,3 +287,23 @@ header h1 {
     font-size: 19px;
     line-height: 1.6;
 }
+
+.botao-sobre {
+    display: inline-block;
+    margin: 30px auto;
+    padding: 14px 30px;
+
+    background-color: #3f5f2a;
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 6px;
+
+    transition: 0.3s;
+}
+
+.botao-sobre:hover {
+    background-color: #26381b;
+}
